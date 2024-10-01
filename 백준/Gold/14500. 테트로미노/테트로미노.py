@@ -7,6 +7,7 @@ dy = [0, 0, 1, -1]
 result = 0
 visited = [[False] * m for _ in range(n)]
 
+# dfs
 def dfs(x, y, count, total):
     global result
     
