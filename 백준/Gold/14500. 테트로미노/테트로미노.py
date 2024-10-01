@@ -40,7 +40,6 @@ def check_t_shape(x, y):
     if len(sums) >= 4:
         result = max(result, total + sum(sums) - min(sums))
     elif len(sums) == 3:
-
         result = max(result, total + sum(sums))
 
 for i in range(n):
